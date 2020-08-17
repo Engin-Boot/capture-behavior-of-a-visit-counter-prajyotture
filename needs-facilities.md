@@ -2,12 +2,12 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given
-  When
-  Then
+  Given Visitors Often less on weekdays
+  When The count of visitors is less compared to the weekends 
+  Then We say Visitor Count reduced on weekdays.
 
 Scenario: Alert when seating capacity is full
 
-  Given
-  When
-  Then
+  Given The Number of Tickets issued implies the capacity full
+  When Number of Chairs in the halls are all occupied
+  Then Then Alert "All Places Occupied" and capacity full.
