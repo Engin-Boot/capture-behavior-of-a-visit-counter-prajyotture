@@ -8,5 +8,6 @@ Then restart the server without losing data
 Scenario: Reconcile counts if the sensor is offline for a while
 
   Given The Server is running
-  When There is Power failure it crashes or go down 
-  Then when power supply resumes reboot and start the counter from where it was left with
+  When There is Power failure it crashes or go down
+  Then when power supply resumes reboot and start the 
+  counter from where it was left with
