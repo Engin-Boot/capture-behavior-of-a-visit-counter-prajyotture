@@ -12,5 +12,4 @@ Scenario: Compute parking slots to reserve for visiting specialists
   Given Special Parking Facilities is available
   When Visiting specialist Comes in assign him ticket for that parking slot
   and update parking counter
-  Then parking slot is occupied and update total count of occupied 
-  parking slots
+  Then Specialist is free to park and update counter.
