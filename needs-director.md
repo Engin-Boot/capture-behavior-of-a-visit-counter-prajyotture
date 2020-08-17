@@ -3,8 +3,9 @@
 Scenario: Show patient visits during working days and holidays
 
   Given Patients is accompanied by relatives and friends
-  When Patient enters assign him a special patient ID 
-  Then Every time patient comes in it updates only the patient count and not relatives and friends.
+  When Patient enters assign him a special patient ID
+  Then Every time patient comes in it updates only the patient count
+  and not relatives and friends.
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
