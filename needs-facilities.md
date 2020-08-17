@@ -3,7 +3,7 @@
 Scenario: Report visitor trends during a week of operation
 
   Given Visitors are less on weekdays.
-  When count is less compared to weekends. 
+  When Count is Less on weekdays compared to weekends. 
   Then Visitor Count is less on weekdays.
 
 Scenario: Alert when seating capacity is full
